@@ -164,11 +164,16 @@ function startGame(){
     gameBoard.innerHTML = '';
   } 
     new Game(6,7);
+
+  let playerOne = new Player(color);
 }
 
 
-
-
+class Player{
+  constructor(color){
+    let playerColor = color;
+  }
+}
 
 
 

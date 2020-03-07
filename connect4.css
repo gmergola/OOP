@@ -29,6 +29,10 @@
   border: dashed 1px lightgray;
 }
 
+#column-top {
+  pointer-events: all;
+}
+
 #column-top td:hover {
   background-color: gold;
 }
